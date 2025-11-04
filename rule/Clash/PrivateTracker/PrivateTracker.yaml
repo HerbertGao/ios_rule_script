@@ -1,7 +1,7 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-10-22 02:10:08
+# UPDATED: 2025-11-04 02:10:09
 # DOMAIN: 163
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
@@ -15,6 +15,7 @@ payload:
   - DOMAIN,1c.premierzal.ru
   - DOMAIN,2.tracker.eu.org
   - DOMAIN,3.tracker.eu.org
+  - DOMAIN,4.tracker.eu.org
   - DOMAIN,6ahddutb1ucc3cp.ru
   - DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
   - DOMAIN,admin.52ywp.com
@@ -37,15 +38,13 @@ payload:
   - DOMAIN,exodus.desync.com
   - DOMAIN,explodie.org
   - DOMAIN,extracker.dahrkael.net
+  - DOMAIN,hificode.in
   - DOMAIN,home.yxgz.club
-  - DOMAIN,ibksturm.synology.me
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv4announce.sktorrent.eu
   - DOMAIN,ipv6.rer.lol
   - DOMAIN,lucke.fenesisu.moe
   - DOMAIN,martin-gebhardt.eu
-  - DOMAIN,ns-1.x-fins.com
-  - DOMAIN,ns3109441.mypdns.org
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,open-tracker.demonoid.ch
   - DOMAIN,open.acgtracker.com
@@ -72,7 +71,6 @@ payload:
   - DOMAIN,shubt.net
   - DOMAIN,t-backup.213891.xyz
   - DOMAIN,t.213891.xyz
-  - DOMAIN,t.al.uy
   - DOMAIN,t.overflow.biz
   - DOMAIN,threads.canofsocks.com
   - DOMAIN,tk.greedland.net
@@ -83,19 +81,19 @@ payload:
   - DOMAIN,tr.abiir.top
   - DOMAIN,tr.abir.ga
   - DOMAIN,tr.highstar.shop
-  - DOMAIN,tr.kxmp.cf
   - DOMAIN,tr.nyacat.pw
-  - DOMAIN,tr.zukizuki.org
+  - DOMAIN,tr3.ysagin.top
   - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,tracker-de-2.cutie.dating
   - DOMAIN,tracker-udp.gbitt.info
+  - DOMAIN,tracker.1h.is
   - DOMAIN,tracker.23794.top
-  - DOMAIN,tracker.aburaya.live
   - DOMAIN,tracker.alaskantf.com
   - DOMAIN,tracker.beeimg.com
   - DOMAIN,tracker.belmult.online
   - DOMAIN,tracker.bitcoinindia.space
   - DOMAIN,tracker.bittor.pw
+  - DOMAIN,tracker.breizh.pm
   - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.bz
@@ -115,11 +113,12 @@ payload:
   - DOMAIN,tracker.gcrenwp.top
   - DOMAIN,tracker.ghostchu-services.top
   - DOMAIN,tracker.gmi.gd
+  - DOMAIN,tracker.guguan.dpdns.org
   - DOMAIN,tracker.hifimarket.in
   - DOMAIN,tracker.hifitechindia.com
+  - DOMAIN,tracker.iperson.xyz
   - DOMAIN,tracker.ipv6tracker.org
-  - DOMAIN,tracker.ipv6tracker.ru
-  - DOMAIN,tracker.jdx3.org
+  - DOMAIN,tracker.kmzs123.cn
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lintk.me
@@ -128,6 +127,8 @@ payload:
   - DOMAIN,tracker.mywaifu.best
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
+  - DOMAIN,tracker.pcfreetime.com
+  - DOMAIN,tracker.playground.ru
   - DOMAIN,tracker.plx.im
   - DOMAIN,tracker.pmman.tech
   - DOMAIN,tracker.qu.ax
@@ -135,8 +136,10 @@ payload:
   - DOMAIN,tracker.rescuecrew7.com
   - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skillindia.site
+  - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
   - DOMAIN,tracker.startwork.cv
+  - DOMAIN,tracker.t-1.org
   - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.therarbg.to
   - DOMAIN,tracker.torrent.eu.org
@@ -145,11 +148,9 @@ payload:
   - DOMAIN,tracker.tryhackx.org
   - DOMAIN,tracker.tvunderground.org.ru
   - DOMAIN,tracker.uraniumhexafluori.de
-  - DOMAIN,tracker.valete.tf
   - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.waaa.moe
   - DOMAIN,tracker.xiaoduola.xyz
-  - DOMAIN,tracker.xn--djrq4gl4hvoi.top
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker.zhuqiy.com
   - DOMAIN,tracker.zupix.online
@@ -160,7 +161,6 @@ payload:
   - DOMAIN,tracker3.itzmx.com
   - DOMAIN,tracker4.itzmx.com
   - DOMAIN,tracker810.xyz
-  - DOMAIN,trl-zhuqiy.dgj055.icu
   - DOMAIN,ttk2.nbaonlineservice.com
   - DOMAIN,udp.tracker.projectk.org
   - DOMAIN,v74853.hosted-by-vdsina.com
