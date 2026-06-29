@@ -1,0 +1,49 @@
+name: Sync master with upstream
+
+# Keep master tracking blackmatrix7/ios_rule_script master. master carries only
+# these two workflow files on top of upstream; we rebase that delta onto the
+# latest upstream and force-push. Conflict-free (workflow files are orthogonal
+# to upstream's rule data).
+#
+# NOTE: the default GITHUB_TOKEN is blocked from writing .github/workflows/, so
+# re-pushing this rebased commit may be rejected. If you see a "workflow"
+# permission error, create a PAT with `contents` + `workflows` write on this
+# repo and add it as the secret SYNC_TOKEN — this job will pick it up. Without
+# the secret it falls back to the default token (works only if GitHub treats the
+# net workflow diff as unchanged).
+
+on:
+  schedule:
+    - cron: '23 5 * * *'   # daily ~05:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-master
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+          token: ${{ secrets.SYNC_TOKEN || github.token }}
+      - name: Rebase onto upstream and force-push
+        run: |
+          set -euo pipefail
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
+          git fetch --no-tags upstream master
+          git rebase upstream/master || {
+            git rebase --abort 2>/dev/null || true
+            echo "::error::rebase conflict on master — only the workflow files should differ from upstream; resolve manually"
+            exit 1
+          }
+          git push --force-with-lease origin master
