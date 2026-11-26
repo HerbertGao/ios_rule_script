@@ -93,6 +93,13 @@ DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,perplexity.com
 DOMAIN-SUFFIX,pplx.ai
 
+# Qwen (Qwen Studio / International)
+DOMAIN-SUFFIX,qwen.ai
+
+# Tencent Hunyuan (TokenHub International)
+DOMAIN,tokenhub-intl.tencentmaas.cn
+DOMAIN,tokenhub-intl.tencentmaas.com
+
 # Together AI
 DOMAIN,api.together.xyz
 
@@ -100,3 +107,6 @@ DOMAIN,api.together.xyz
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,x.ai
+
+# Zhipu (Z.ai International)
+DOMAIN-SUFFIX,z.ai

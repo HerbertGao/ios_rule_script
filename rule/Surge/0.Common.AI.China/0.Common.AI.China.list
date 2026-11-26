@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,xfyun.cn
 
 # MiniMax
 DOMAIN,api.minimaxi.com
+DOMAIN-SUFFIX,minimax.cn
 DOMAIN-SUFFIX,minimaxi.com
 
 # Moonshot / Kimi
@@ -36,7 +37,6 @@ DOMAIN-SUFFIX,moonshot.cn
 # Qwen / Tongyi (DashScope)
 DOMAIN-SUFFIX,dashscope.aliyuncs.com
 DOMAIN-SUFFIX,qianwen.com
-DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,tongyi.aliyun.com
 
 # StepFun
@@ -44,12 +44,12 @@ DOMAIN,api.stepfun.com
 DOMAIN-SUFFIX,stepfun.com
 
 # Tencent Hunyuan / Yuanbao
-DOMAIN,api.hunyuan.cloud.tencent.com
-DOMAIN,api.hunyuan.tencent.com
+DOMAIN,tokenhub.tencentmaas.cn
+DOMAIN,tokenhub.tencentmaas.com
 DOMAIN-SUFFIX,hunyuan.tencent.com
 DOMAIN-SUFFIX,yuanbao.tencent.com
 
 # Zhipu / GLM (BigModel)
 DOMAIN,open.bigmodel.cn
+DOMAIN,zchat.z.ai
 DOMAIN-SUFFIX,bigmodel.cn
-DOMAIN-SUFFIX,z.ai
