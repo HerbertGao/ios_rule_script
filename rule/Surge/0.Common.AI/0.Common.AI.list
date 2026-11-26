@@ -77,8 +77,13 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-KEYWORD,openaicom-api
 
+# Command Code
+DOMAIN,api.commandcode.ai
+DOMAIN-SUFFIX,commandcode.ai
+
 # OpenCode
 DOMAIN-SUFFIX,opencode.ai
+DOMAIN-SUFFIX,opncd.ai
 
 # OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
